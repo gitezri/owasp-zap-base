@@ -9,8 +9,19 @@ Vulnerability Assessment.
 
 Case study:
 
-/usr/share/zaproxy/zap.sh -cmd -quickurl http://172.17.0.2 -quickprogress
+/usr/share/zaproxy/zap.sh -cmd -quickurl www.xvwa.com -quickprogress
 
 The Zap.sh command allows you to quickly run baseline of you companies web applications.
 
-I created a extremely vulnerable site to test it:  
+I need an vulnerable site to test it (a docker containter was perfect for this):  
+
+docker run --name xvwa -d -p 80:80 tuxotron/xvwa
+
+This command pulls and runs the XVWA web application.
+
+Make this real, I edited the /etc/hosts file to point the web app to a normal web address:
+
+172.17.0.2 www.xvwa.com xvwa. 
+
+This way the resolves to my locally create web application. Remember it is illegal to access
+privately data with out a written consent. That's is way we are hacking or testing ourself.
