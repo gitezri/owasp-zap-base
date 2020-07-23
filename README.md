@@ -25,3 +25,7 @@ Make this real, I edited the /etc/hosts file to point the web app to a normal we
 
 This way the resolves to my locally create web application. Remember it is illegal to access
 privately data with out a written consent. That's is way we are hacking or testing ourself.
+
+## References
+
+Must [install OWASP ZAP](https://code.google.com/p/zaproxy/wiki/Downloads?tm=2)
