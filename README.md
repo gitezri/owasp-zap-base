@@ -7,6 +7,8 @@ You want to find problems before the hacker find them.
 It allows companies to comply the federal and state requirement of
 Vulnerability Assessment. 
 
+It is possble to run ZAP inside a container, but you get better support running it directoy via Zap.sh.
+
 ## Case study:
 
 /usr/share/zaproxy/zap.sh -cmd -quickurl www.xvwa.com -quickprogress
