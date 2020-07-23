@@ -38,6 +38,8 @@ Youtube introduction to Zap.sh [Info on Zap API](https://youtu.be/3vVnMh6AUkk)
 
 Detailed API documentation [ZAP API] (https://www.zaproxy.org/docs/api/#introduction)
 
+ZAP Docker User's Guide (https://www.zaproxy.org/docs/docker/about/)
+
 ## Notes
 
 Similar project ZAPR is not being maintained
