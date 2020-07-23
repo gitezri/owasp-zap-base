@@ -4,7 +4,7 @@ This allows you to see the basic issues with your web app.
 You want to find problems before the hacker find them.
 
 ## Vulnerability Assessment  
-Systematic examination of an information system or product to determine the adequacy of security and privacy measures, identify security and privacy deficiencies, provide data from which to predict the effectiveness of proposed security and privacy measures, and confirm the adequacy of such measures after implementation(https://csrc.nist.gov/glossary/term/vulnerability_assessment).
+Systematic examination of an information system or product to determine the adequacy of security and privacy measures, identify security and privacy deficiencies, provide data from which to predict the effectiveness of proposed security and privacy measures, and confirm the adequacy of such measures after implementation[1](https://csrc.nist.gov/glossary/term/vulnerability_assessment).
 
 ## OWASP-ZAP is Open Source Wep Application Project / Zed Attack Protocol. 
 It allows companies to comply the federal and state requirement of
