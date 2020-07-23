@@ -17,6 +17,8 @@ I need an vulnerable site to test it (a docker containter was perfect for this):
 
 ## docker run --name xvwa -d -p 80:80 tuxotron/xvwa
 
+Here is the [GitHub] page for xvwa (https://github.com/tuxotron/xvwa_lamp_container)
+
 This command pulls and runs the XVWA web application.
 
 Make this real, I edited the /etc/hosts file to point the web app to a normal web address:
@@ -33,3 +35,9 @@ Must [Install OWASP ZAP] (https://www.zaproxy.org/download/)
 Very handy [Command line Help] (https://www.zaproxy.org/docs/desktop/cmdline/)
 
 Youtube introduction to Zap.sh [Info on Zap API](https://youtu.be/3vVnMh6AUkk)
+
+Detailed API documentation [ZAP API] (https://www.zaproxy.org/docs/api/#introduction)
+
+## Notes
+
+Similar project ZAPR is not being maintained
