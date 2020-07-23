@@ -22,7 +22,7 @@ I've tested it under Ubuntu, Kali and Rasbian Linux. It is available under Windo
 
 ## The "Zap.sh" command allows you to quickly run baseline of you companies web applications.
 
-I need an vulnerable site to test it (a docker containter was perfect for this):  
+I needed a vulnerable site to test it (a docker containter was perfect for this):  
 
 ## docker run --name xvwa -d -p 80:80 tuxotron/xvwa
 
