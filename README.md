@@ -1,7 +1,7 @@
 # owasp-zap-base
 OWASP-ZAP is a great way to quickly run a baseline of your production website.
-This allows you to see the basic issues with your web app.
-You want to find problems before the hacker find them.
+This systems app allows you to see the basic issues with your web app.
+The goal is for you to find your sites problems before the hackers find them.
 
 ## Vulnerability Assessment  
 Systematic examination of an information system or product to determine the adequacy of security and privacy measures, identify security and privacy deficiencies, provide data from which to predict the effectiveness of proposed security and privacy measures, and confirm the adequacy of such measures after implementation[1](https://csrc.nist.gov/glossary/term/vulnerability_assessment).
@@ -14,9 +14,13 @@ It is possble to run ZAP inside a container, but you get better support running 
 
 ## Case study:
 
+ZAP is a massive project but this is a basic command line example of how to run it. You can also run it GUI but this way can be fully automated.
+
 /usr/share/zaproxy/zap.sh -cmd -quickurl www.xvwa.com -quickprogress
 
-## The Zap.sh command allows you to quickly run baseline of you companies web applications.
+I've tested it under Ubuntu, Kali and Rasbian Linux. It is available under Windows and Mac.
+
+## The "Zap.sh" command allows you to quickly run baseline of you companies web applications.
 
 I need an vulnerable site to test it (a docker containter was perfect for this):  
 
