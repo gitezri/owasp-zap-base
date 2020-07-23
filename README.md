@@ -28,4 +28,5 @@ privately data with out a written consent. That's is way we are hacking or testi
 
 ## References
 
-Must [install OWASP ZAP](https://code.google.com/p/zaproxy/wiki/Downloads?tm=2)
+Must [Install OWASP ZAP] (https://www.zaproxy.org/download/)
+Very handy [Command line Help] (https://www.zaproxy.org/docs/desktop/cmdline/)
