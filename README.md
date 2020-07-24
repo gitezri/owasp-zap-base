@@ -10,23 +10,23 @@ The NIST definition "Systematic examination of an information system or product 
 It allows companies to comply the federal and state requirement of
 Vulnerability Assessment. 
 
-It is possble to run ZAP inside a container, but you get better support running it directoy via Zap.sh.
+It is possble to run ZAP inside a container, but you will get better support running it directly via Zap.sh.
 
 ## Case study:
 
-ZAP is a massive project but this is a basic command line example of how to run it. You can also run it GUI but this way can be fully automated.
+ZAP is a massive project but here is a basic command line example of how to run it. You can also run it in GUI mode but this way it can be fully automated.
 
 /usr/share/zaproxy/zap.sh -cmd -quickurl www.xvwa.com -quickprogress
 
-I've tested it under Ubuntu, Kali and Rasbian Linux. It is available under Windows and Mac.
+I've tested it under Ubuntu, Kali and Rasbian Linux and under AWS. It is available under Windows and Mac.
 
-## The "Zap.sh" command allows you to quickly run baseline of you companies web applications.
+## The "Zap.sh" command allows you to quickly run baseline of your companies web applications.
 
 I needed a vulnerable site to test it (a docker containter was perfect for this):  
 
 ## docker run --name xvwa -d -p 80:80 tuxotron/xvwa
 
-Here is the [GitHub] page for xvwa (https://github.com/tuxotron/xvwa_lamp_container)
+Here is the page for xvwa [XVWA GitHub](https://github.com/tuxotron/xvwa_lamp_container)
 
 This command pulls and runs the XVWA web application.
 
@@ -34,8 +34,8 @@ Make this real, I edited the /etc/hosts file to point the web app to a normal we
 
 172.17.0.2 www.xvwa.com xvwa. 
 
-This way the resolves to my locally create web application. Remember it is illegal to access
-privately data with out a written consent. That's is way we are hacking or testing ourself.
+This way it resolves to my locally created web application. Remember it is illegal to access
+private data without a written consent. That's way we are hacking our own web site.
 
 ## References
 
