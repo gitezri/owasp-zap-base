@@ -8,7 +8,7 @@ The NIST definition "Systematic examination of an information system or product 
 
 ## OWASP-ZAP is Open Source Wep Application Project / Zed Attack Protocol. 
 It allows companies to comply the federal and state requirement of
-Vulnerability Assessment. 
+Vulnerability Assessment. ![ZAP](AF9A24E2-9B23-43C9-86DA-96751D1DF7EA.png)
 
 It is possble to run ZAP inside a container, but you will get better support running it directly via Zap.sh.
 
